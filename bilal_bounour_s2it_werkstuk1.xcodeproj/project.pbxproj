@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		B5B16CB020975176009A327D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B16CAF20975176009A327D /* AppDelegate.swift */; };
-		B5B16CB220975176009A327D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B16CB120975176009A327D /* ViewController.swift */; };
 		B5B16CB520975176009A327D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5B16CB320975176009A327D /* Main.storyboard */; };
 		B5B16CB720975178009A327D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5B16CB620975178009A327D /* Assets.xcassets */; };
 		B5B16CBA20975178009A327D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5B16CB820975178009A327D /* LaunchScreen.storyboard */; };
 		B5B16CC520975178009A327D /* bilal_bounour_s2it_werkstuk1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B16CC420975178009A327D /* bilal_bounour_s2it_werkstuk1Tests.swift */; };
 		B5B16CD020975178009A327D /* bilal_bounour_s2it_werkstuk1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B16CCF20975178009A327D /* bilal_bounour_s2it_werkstuk1UITests.swift */; };
+		B5B16CDE209754B8009A327D /* PersoonClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B16CDD209754B8009A327D /* PersoonClass.swift */; };
+		B5B16CE0209755EE009A327D /* PersoonTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B16CDF209755EE009A327D /* PersoonTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +37,6 @@
 /* Begin PBXFileReference section */
 		B5B16CAC20975176009A327D /* bilal_bounour_s2it_werkstuk1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bilal_bounour_s2it_werkstuk1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5B16CAF20975176009A327D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B5B16CB120975176009A327D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B5B16CB420975176009A327D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B5B16CB620975178009A327D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B5B16CB920975178009A327D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +47,8 @@
 		B5B16CCB20975178009A327D /* bilal_bounour_s2it_werkstuk1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bilal_bounour_s2it_werkstuk1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5B16CCF20975178009A327D /* bilal_bounour_s2it_werkstuk1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bilal_bounour_s2it_werkstuk1UITests.swift; sourceTree = "<group>"; };
 		B5B16CD120975178009A327D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5B16CDD209754B8009A327D /* PersoonClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersoonClass.swift; sourceTree = "<group>"; };
+		B5B16CDF209755EE009A327D /* PersoonTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersoonTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +100,12 @@
 			isa = PBXGroup;
 			children = (
 				B5B16CAF20975176009A327D /* AppDelegate.swift */,
-				B5B16CB120975176009A327D /* ViewController.swift */,
 				B5B16CB320975176009A327D /* Main.storyboard */,
 				B5B16CB620975178009A327D /* Assets.xcassets */,
 				B5B16CB820975178009A327D /* LaunchScreen.storyboard */,
 				B5B16CBB20975178009A327D /* Info.plist */,
+				B5B16CDD209754B8009A327D /* PersoonClass.swift */,
+				B5B16CDF209755EE009A327D /* PersoonTableViewController.swift */,
 			);
 			path = bilal_bounour_s2it_werkstuk1;
 			sourceTree = "<group>";
@@ -256,7 +259,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B5B16CB220975176009A327D /* ViewController.swift in Sources */,
+				B5B16CE0209755EE009A327D /* PersoonTableViewController.swift in Sources */,
+				B5B16CDE209754B8009A327D /* PersoonClass.swift in Sources */,
 				B5B16CB020975176009A327D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
