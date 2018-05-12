@@ -16,14 +16,20 @@ class PersoonTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let Persoon1 = PersoonClass(naam: "Bounour", voornaam: "Bilal", afbeelding: "aap", telNr: "0484848484", adres: "Gustave belier 15", coordinaatX: 50.850346 , coordinaatY:4.351721)
+        let Persoon1 = PersoonClass(naam: "Bounour", voornaam: "Bilal", afbeelding: "bilal", telNr: "0484848484", adres: "Gustave belier 15", coordinaatX: 50.850346 , coordinaatY:4.351721)
         PersoonInfo.append(Persoon1)
         
-        let Persoon2 = PersoonClass(naam: "Sonmez", voornaam: "Ali", afbeelding: "ali", telNr: "0484838383", adres: "montenegro 15", coordinaatX: 50.850346 , coordinaatY:4.351721 )
+        let Persoon2 = PersoonClass(naam: "Sonmez", voornaam: "Ali", afbeelding: "ali", telNr: "0484838383", adres: "montenegro 15", coordinaatX: 51.054342 , coordinaatY:3.717424 )
         PersoonInfo.append(Persoon2)
         
-        let Persoon3 = PersoonClass(naam: "Zaim", voornaam: "Camil", afbeelding: "rayan", telNr: "0484828282", adres: "Kastanjestraat 15", coordinaatX: 50.850346 , coordinaatY:4.351721)
+        let Persoon3 = PersoonClass(naam: "Zaim", voornaam: "Camil", afbeelding: "rayan", telNr: "0484828282", adres: "Kastanjestraat 15", coordinaatX: 50.632557 , coordinaatY:5.579666)
         PersoonInfo.append(Persoon3)
+        
+        let Persoon4 = PersoonClass(naam: "Bounour", voornaam: "Amine", afbeelding: "amine", telNr: "0476544323", adres: "Aarschotstraat 15", coordinaatX: 51.025876 , coordinaatY:4.477536)
+        PersoonInfo.append(Persoon4)
+        
+        let Persoon5 = PersoonClass(naam: "Elhamouti", voornaam: "Majid", afbeelding: "majid", telNr: "0465234567", adres: "gustave defnet 15", coordinaatX: 50.879844 , coordinaatY:4.700518)
+        PersoonInfo.append(Persoon5)
         
         
 

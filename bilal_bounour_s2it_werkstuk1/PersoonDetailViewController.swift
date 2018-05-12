@@ -29,6 +29,7 @@ class PersoonDetailViewController: UIViewController, CLLocationManagerDelegate, 
         self.lblNaam.text = persoonDetail.naam
         self.lblVoornaam.text = persoonDetail.voornaam
         self.lblTelNr.text = persoonDetail.telNr
+        self.lblAdres.text = persoonDetail.adres
         self.Afbeelding.image = UIImage(named: persoonDetail.afbeelding)
         
         let locatiePersoon = MKPointAnnotation()
@@ -36,15 +37,23 @@ class PersoonDetailViewController: UIViewController, CLLocationManagerDelegate, 
         
         
         self.map.addAnnotation(locatiePersoon)
+        locatiePersoon.title = persoonDetail.adres
+        
         
     }
+    
+    
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
     
-
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if let vc = segue.destination as? ImageViewController{
+            vc.temp = self.Afbeelding.image
+        }
+    }
     /*
     // MARK: - Navigation
 

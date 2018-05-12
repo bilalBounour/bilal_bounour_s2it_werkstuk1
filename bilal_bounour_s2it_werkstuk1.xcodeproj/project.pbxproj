@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		613CC9AC20A5DAC6000FE9D1 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 613CC9AB20A5DAC6000FE9D1 /* ImageViewController.swift */; };
+		61CB223E20A72F6100625560 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61CB223D20A72F6100625560 /* MapViewController.swift */; };
 		B5B16CB020975176009A327D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B16CAF20975176009A327D /* AppDelegate.swift */; };
 		B5B16CB520975176009A327D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5B16CB320975176009A327D /* Main.storyboard */; };
 		B5B16CB720975178009A327D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5B16CB620975178009A327D /* Assets.xcassets */; };
@@ -36,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		613CC9AB20A5DAC6000FE9D1 /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		61CB223D20A72F6100625560 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		B5B16CAC20975176009A327D /* bilal_bounour_s2it_werkstuk1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bilal_bounour_s2it_werkstuk1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5B16CAF20975176009A327D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B5B16CB420975176009A327D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -109,6 +113,8 @@
 				B5B16CDD209754B8009A327D /* PersoonClass.swift */,
 				B5B16CDF209755EE009A327D /* PersoonTableViewController.swift */,
 				B5B16CE120976271009A327D /* PersoonDetailViewController.swift */,
+				613CC9AB20A5DAC6000FE9D1 /* ImageViewController.swift */,
+				61CB223D20A72F6100625560 /* MapViewController.swift */,
 			);
 			path = bilal_bounour_s2it_werkstuk1;
 			sourceTree = "<group>";
@@ -263,7 +269,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B5B16CE220976271009A327D /* PersoonDetailViewController.swift in Sources */,
+				61CB223E20A72F6100625560 /* MapViewController.swift in Sources */,
 				B5B16CE0209755EE009A327D /* PersoonTableViewController.swift in Sources */,
+				613CC9AC20A5DAC6000FE9D1 /* ImageViewController.swift in Sources */,
 				B5B16CDE209754B8009A327D /* PersoonClass.swift in Sources */,
 				B5B16CB020975176009A327D /* AppDelegate.swift in Sources */,
 			);
